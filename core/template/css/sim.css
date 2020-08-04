@@ -1,0 +1,146 @@
+.iMessage p, .iCall p, .USSD p, .AT-comand p, .iMessage p, .oMessage p{
+	margin-bottom: 0.5rem;
+}
+.iMessage, .iCall, .USSD, .AT-comand, .iMessage, .oMessage{
+	padding: .8rem;
+	margin-top: .8rem;
+	margin-bottom: .8rem;
+	border: 1px solid #eee;
+	border-left-width: .25rem;
+	border-radius: .25rem;
+	text-align: left;
+
+}
+.iMessage{
+	border-left-color: #1e7e34;
+	background-color: #1e7e340a;
+}
+.oMessage{
+	border-right-color: #1e7e34;
+	background-color: #1e7e340a;
+	border-left-width: 1px;
+	border-right-width: .25rem;
+}
+.iMessage>.phone, .oMessage>.phone{
+	color: #1e7e34;
+}
+.iMessage>.phone>span, .oMessage>.phone>span{
+	display: block;
+	font-size: 0.7rem;
+}
+
+.iCall{
+	border-left-color: #d9534f;
+	background-color: #d9534f0a;
+}
+.iCall>.phone, .iCall>.phone{
+	color: #d9534f;
+}
+.iCall>.phone>span, .iCall>.phone>span{
+	display: block;
+	font-size: 0.7rem;
+}
+
+.USSD{
+	border-left-color: #f0ad4e;
+	background-color: #f0ad4e0a;
+}
+.AT-comand{
+	border-left-color: #495057;
+	background-color: #4950570a;
+}
+
+.response{}
+.request{
+	font-size: 0.6rem;
+}
+.request-time, .response-time{
+	font-weight: bold;
+}
+
+
+.alertWrapper{
+	position: absolute;
+	height: 1px;
+	top: 0%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 50%);
+	text-align: center;
+	min-width: 350px;
+}
+
+.alertWrapper .alert-dismissible{
+	padding-top: 5px !important;
+	padding-bottom: 55px !important;
+	box-shadow: 0 .25rem 1rem rgba(0,0,0,.4)!important;
+	overflow: hidden !important;
+	border: none !important;
+}
+
+.events{
+    
+}
+
+.alert{
+	transition: all .3s ease-in-out;
+}
+.scale-0{
+	transform: scale(0);
+}
+.scale-1{
+	transform: scale(1);
+}
+.tscale-0{
+	transform: scale(0);
+}
+.tscale-1{
+	transform: scale(1) translate(-50%, 50%);
+}
+
+
+/*reboot*/
+
+.btn-delete{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	height: 50px;
+	border-radius: 0;
+}
+.btn-close{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	height: 50px;
+	background-color: transparent;
+	border: 0;
+	opacity: .5;
+	font-weight: 700;
+	color: rgb(33, 37, 41);
+}
+
+a.logOUT {
+    color: #ff7e8b !important;
+}
+
+
+.mainInfo{}
+.mainInfo>.phone{
+    line-height: 2.2rem;
+    display: inline-block;
+    padding: 0 20px 0 50px;
+    background-size: contain;
+}
+.mainInfo>.balance{
+    line-height: 2.2rem;
+    display: inline-block;
+}
+.country-flag-ua{
+	background: url('../img/icons8-ukraine-50.png') 0 50% no-repeat;
+}
+.country-flag-ru{
+	background: url('../img/icons8-russian-federation-50.png') 0 50% no-repeat;
+}
